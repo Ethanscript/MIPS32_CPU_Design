@@ -1,0 +1,38 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/Ethan/Desktop/test_code/P4/P4/test_mips_isim_beh.exe -prj C:/Users/Ethan/Desktop/test_code/P4/P4/test_mips_beh.prj work.test_mips work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Ethan/Desktop/test_code/P4/P4/pc.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/test_code/P4/P4/npc.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/test_code/P4/P4/im.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/test_code/P4/P4/gpr.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/test_code/P4/P4/ext.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/test_code/P4/P4/dm.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/test_code/P4/P4/controller.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/test_code/P4/P4/alu.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/test_code/P4/P4/pathway.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/test_code/P4/P4/mips.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/test_code/P4/P4/test_mips.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module alu
+Compiling module dm
+Compiling module ext
+Compiling module grf
+Compiling module im
+Compiling module npc
+Compiling module pc
+Compiling module controller
+Compiling module pathway
+Compiling module mips
+Compiling module test_mips
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\test_mips_isim_beh.exe.sim\libPortability.dll".
+Compiled 12 Verilog Units
+Built simulation executable C:/Users/Ethan/Desktop/test_code/P4/P4/test_mips_isim_beh.exe
+Fuse Memory Usage: 29428 KB
+Fuse CPU Usage: 374 ms
