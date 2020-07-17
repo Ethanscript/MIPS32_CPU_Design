@@ -1,5 +1,0 @@
-set -tmpdir "C:/Users/Ethan/Desktop/test_code/P5_new/xst/projnav.tmp"
-set -xsthdpdir "C:/Users/Ethan/Desktop/test_code/P5_new/xst"
-elaborate
--ifn transform.prj
--ifmt mixed
