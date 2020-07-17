@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+string instance_name (
+    .clk(clk), 
+    .clr(clr), 
+    .in(in), 
+    .out(out)
+    );
+
+

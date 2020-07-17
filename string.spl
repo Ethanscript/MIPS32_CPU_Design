@@ -1,0 +1,10 @@
+[Inputs]
+clk
+clr
+=in[7:0]=
+[Outputs]
+out
+[BiDir]
+[ATTRIBUTES]
+VeriModel string
+
