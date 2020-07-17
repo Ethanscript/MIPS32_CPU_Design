@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Ethan/Desktop/test_code/P5/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Ethan/Desktop/test_code/P5/xst"
+elaborate
+-ifn mux_2.prj
+-ifmt mixed

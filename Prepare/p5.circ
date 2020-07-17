@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0"/>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4"/>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="circuit" val="main"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <polyline fill="none" points="60,140 60,170" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="60,140 70,140" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="70,140 70,170" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="60,170 70,170" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="70,150 90,150" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="90,140 90,180" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="90,140 120,140" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="90,180 120,180" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="120,140 120,180" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="80,150 80,210" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="80,210 120,210" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="120,200 120,220" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="120,200 150,210" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="120,220 140,230" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="140,230 120,240" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="120,240 120,260" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="120,260 150,250" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="150,210 150,250" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="180,60 180,320" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="180,60 200,60" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="200,60 200,320" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="180,320 180,350" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="180,350 200,350" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="200,320 200,350" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="120,150 180,150" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="150,230 160,230" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="160,230 160,320" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="160,320 180,320" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="220,40 220,100" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="220,40 300,40" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="220,100 300,100" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="300,40 300,100" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="200,70 220,70" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="240,120 240,170" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="240,120 310,120" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="240,170 310,170" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="310,120 310,170" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="200,130 240,130" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="200,140 240,140" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="40,380 40,400" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="40,380 330,380" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="40,400 330,400" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="330,380 410,380" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="330,400 410,400" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="410,380 480,380" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="410,400 490,400" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="480,380 570,380" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="490,400 570,400" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="200,320 340,320" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="430,60 450,60" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="430,60 430,350" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="430,350 450,350" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="450,60 450,350" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="240,250 280,240" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="240,250 240,270" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="240,270 280,270" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="280,240 280,270" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="200,260 240,260" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="310,240 310,280" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="310,240 310,230" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="310,230 370,230" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="310,280 370,280" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="370,230 370,280" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="280,250 310,250" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="290,260 290,320" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="290,260 310,260" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="340,320 430,320" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="290,250 290,210" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="290,210 430,210" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="370,250 380,250" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="380,250 380,360" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="380,360 120,360" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="120,360 20,360" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="50,140 30,130" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="30,130 30,170" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="30,170 50,160" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="50,140 50,160" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="50,150 60,150" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,360 20,160" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="20,160 30,160" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="160,320 30,320" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="30,320 10,320" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="10,320 10,140" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="10,140 30,140" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="300,70 360,70" stroke="#000000" stroke-width="2"/>
+      <polyline fill="none" points="310,130 330,130" stroke="#0099e6"/>
+      <polyline fill="none" points="310,140 320,140" stroke="#0099e6"/>
+      <polyline fill="none" points="320,140 320,200" stroke="#0099e6"/>
+      <polyline fill="none" points="330,130 330,200" stroke="#0099e6"/>
+      <polyline fill="none" points="320,370 320,380" stroke="#0099e6"/>
+      <polyline fill="none" points="330,370 330,380" stroke="#0099e6"/>
+      <polyline fill="none" points="350,130 360,130" stroke="#0099e6"/>
+      <polyline fill="none" points="350,130 350,170" stroke="#0099e6"/>
+      <polyline fill="none" points="360,130 370,130" stroke="#0099e6"/>
+      <polyline fill="none" points="360,140 370,140" stroke="#0099e6"/>
+      <polyline fill="none" points="350,170 350,200" stroke="#0099e6"/>
+      <polyline fill="none" points="360,140 360,200" stroke="#0099e6"/>
+      <polyline fill="none" points="350,370 350,380" stroke="#0099e6"/>
+      <polyline fill="none" points="360,370 360,380" stroke="#0099e6"/>
+      <polyline fill="none" points="370,130 370,80" stroke="#0099e6"/>
+      <polyline fill="none" points="370,140 380,140" stroke="#0099e6"/>
+      <polyline fill="none" points="380,140 380,80" stroke="#0099e6"/>
+      <polyline fill="none" points="360,60 360,80" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="360,60 390,60" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="360,80 390,80" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="390,60 390,80" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="41,135 41,10" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="40,10 280,10" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="280,10 370,10" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="370,10 370,60" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="370,130 430,130" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="380,140 430,140" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="570,380 640,380" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="570,400 640,400" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="640,380 710,380" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="640,400 710,400" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="710,380 780,380" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="710,400 780,400" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="630,60 630,350" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="650,60 650,350" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="630,350 650,350" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="630,60 650,60" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="450,70 490,70" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="490,50 490,100" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="490,50 570,50" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="490,100 570,100" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="570,50 570,100" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="450,130 480,130" stroke="#0097fc"/>
+      <polyline fill="none" points="450,140 470,140" stroke="#0097fc"/>
+      <polyline fill="none" points="470,140 470,380" stroke="#0097fc"/>
+      <polyline fill="none" points="480,130 480,380" stroke="#0097fc"/>
+      <polyline fill="none" points="490,130 490,380" stroke="#0097fc"/>
+      <polyline fill="none" points="500,140 500,380" stroke="#0097fc"/>
+      <polyline fill="none" points="490,130 520,130" stroke="#0097fc"/>
+      <polyline fill="none" points="500,140 520,140" stroke="#0097fc"/>
+      <polyline fill="none" points="500,140 520,140" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="550,140 550,160" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="550,140 570,150" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="550,160 550,170" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="550,170 570,160" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="570,150 570,160" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="450,210 540,210" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="520,140 540,140" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="540,140 540,150" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="540,150 550,150" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="540,160 550,160" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="540,160 540,210" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="520,140 520,190" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="520,190 630,190" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="450,320 630,320" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="590,110 590,160" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="590,160 610,150" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="590,110 610,120" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="610,120 610,150" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="610,135 630,135" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="570,150 590,150" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="490,130 590,130" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="570,270 570,300" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="570,270 600,270" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="570,300 600,300" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="600,270 600,300" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="540,320 540,290" stroke="#0099ff"/>
+      <polyline fill="none" points="540,290 570,290" stroke="#0099ff"/>
+      <polyline fill="none" points="540,280 570,280" stroke="#0099ff"/>
+      <polyline fill="none" points="540,280 540,250" stroke="#0099ff"/>
+      <polyline fill="none" points="540,250 620,250" stroke="#0099ff"/>
+      <polyline fill="none" points="620,250 620,135" stroke="#0099ff"/>
+      <polyline fill="none" points="780,380 850,380" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="780,400 850,400" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="850,380 920,380" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="850,400 920,400" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="840,60 860,60" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="840,60 840,350" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="860,60 860,350" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="840,350 860,350" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="760,100 760,210" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="760,100 820,100" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="820,100 820,210" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="760,210 820,210" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="820,150 840,150" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="650,140 760,140" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="650,320 840,320" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="650,190 670,190" stroke="#0096fa"/>
+      <polyline fill="none" points="670,190 670,380" stroke="#0096fa"/>
+      <polyline fill="none" points="680,190 680,380" stroke="#0096fa"/>
+      <polyline fill="none" points="680,190 760,190" stroke="#0096fa"/>
+      <polyline fill="none" points="700,140 700,260" stroke="#0096fa"/>
+      <polyline fill="none" points="700,280 700,320" stroke="#0096fa"/>
+      <polyline fill="none" points="700,260 700,270" stroke="#0096fa"/>
+      <polyline fill="none" points="700,270 740,270" stroke="#0096fa"/>
+      <polyline fill="none" points="700,280 740,280" stroke="#0096fa"/>
+      <polyline fill="none" points="740,260 740,290" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="740,260 770,260" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="740,290 770,290" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="770,260 770,290" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="730,140 730,240" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="730,240 840,240" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="330,290 350,290" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="330,290 330,310" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="330,310 350,310" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="350,290 350,310" stroke="#000305" stroke-width="2"/>
+      <polyline fill="none" points="310,320 310,300" stroke="#0099ff"/>
+      <polyline fill="none" points="310,300 330,300" stroke="#0099ff"/>
+      <polyline fill="none" points="650,80 670,80" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="670,50 670,100" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="670,50 750,50" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="670,100 750,100" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="750,50 750,100" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="860,150 890,150" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="860,240 890,240" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="860,320 890,320" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="890,150 890,230" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="890,250 890,320" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="910,220 910,260" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="910,220 930,230" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="910,260 930,250" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="930,230 930,250" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="890,230 910,230" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="890,240 910,240" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="890,250 910,250" stroke="#00090f" stroke-width="2"/>
+      <polyline fill="none" points="930,240 940,240" stroke="#0099ff"/>
+      <polyline fill="none" points="940,240 940,380" stroke="#0099ff"/>
+      <polyline fill="none" points="860,80 880,80" stroke="#000508" stroke-width="2"/>
+      <polyline fill="none" points="880,60 880,100" stroke="#000508" stroke-width="2"/>
+      <polyline fill="none" points="880,60 960,60" stroke="#000508" stroke-width="2"/>
+      <polyline fill="none" points="880,100 960,100" stroke="#000508" stroke-width="2"/>
+      <polyline fill="none" points="960,60 960,100" stroke="#000508" stroke-width="2"/>
+      <polyline fill="none" points="920,380 1020,380" stroke="#000508" stroke-width="2"/>
+      <polyline fill="none" points="1020,380 1020,400" stroke="#000508" stroke-width="2"/>
+      <polyline fill="none" points="920,400 1020,400" stroke="#000508" stroke-width="2"/>
+      <polyline fill="none" points="890,60 890,30" stroke="#00a2ff"/>
+      <polyline fill="none" points="890,30 500,30" stroke="#00a2ff"/>
+      <polyline fill="none" points="500,30 230,30" stroke="#00a2ff"/>
+      <polyline fill="none" points="230,30 230,150" stroke="#00a2ff"/>
+      <polyline fill="none" points="230,150 240,150" stroke="#00a2ff"/>
+      <polyline fill="none" points="940,240 980,240" stroke="#00060a" stroke-width="2"/>
+      <polyline fill="none" points="980,240 980,370" stroke="#00060a" stroke-width="2"/>
+      <polyline fill="none" points="980,370 680,370" stroke="#00060a" stroke-width="2"/>
+      <polyline fill="none" points="680,370 290,370" stroke="#00060a" stroke-width="2"/>
+      <polyline fill="none" points="290,370 230,370" stroke="#00060a" stroke-width="2"/>
+      <polyline fill="none" points="230,370 230,160" stroke="#00060a" stroke-width="2"/>
+      <polyline fill="none" points="230,160 240,160" stroke="#00060a" stroke-width="2"/>
+      <polyline fill="none" points="320,370 320,340" stroke="#0099ff"/>
+      <polyline fill="none" points="330,370 330,340" stroke="#0099ff"/>
+      <polyline fill="none" points="350,370 350,340" stroke="#0099ff"/>
+      <polyline fill="none" points="360,370 360,350" stroke="#0099ff"/>
+      <polyline fill="none" points="260,240 260,245" stroke="#ff193d"/>
+      <polyline fill="none" points="251,241 251,248" stroke="#ff193d"/>
+      <polyline fill="none" points="330,220 330,230" stroke="#ff193d"/>
+      <polyline fill="none" points="340,220 340,230" stroke="#ff193d"/>
+      <polyline fill="none" points="350,220 350,230" stroke="#ff193d"/>
+      <polyline fill="none" points="190,350 190,380" stroke="#ff193d"/>
+      <polyline fill="none" points="440,350 440,380" stroke="#ff193d"/>
+      <polyline fill="none" points="220,80 210,80" stroke="#0e9bff"/>
+      <polyline fill="none" points="210,80 210,380" stroke="#0e9bff"/>
+      <polyline fill="none" points="490,80 460,80" stroke="#0e9bff"/>
+      <polyline fill="none" points="460,80 460,380" stroke="#0e9bff"/>
+      <polyline fill="none" points="670,90 660,90" stroke="#0e9bff"/>
+      <polyline fill="none" points="660,90 660,380" stroke="#0e9bff"/>
+      <polyline fill="none" points="880,90 870,90" stroke="#0e9bff"/>
+      <polyline fill="none" points="870,90 870,380" stroke="#0e9bff"/>
+      <polyline fill="none" points="270,110 270,120" stroke="#ff1a3b"/>
+      <polyline fill="none" points="780,90 780,100" stroke="#ff1a3b"/>
+      <polyline fill="none" points="600,110 600,116" stroke="#ff1a3b"/>
+      <polyline fill="none" points="560,140 560,145" stroke="#ff1a3b"/>
+      <polyline fill="none" points="920,220 920,225" stroke="#ff1a3b"/>
+      <polyline fill="none" points="220,100 220,250" stroke="#1696ff"/>
+      <polyline fill="none" points="220,250 220,380" stroke="#1696ff"/>
+      <polyline fill="none" points="120,250 80,250" stroke="#020f1a" stroke-width="2"/>
+      <text font-family="SansSerif" font-size="6" text-anchor="middle" x="74" y="252">4</text>
+      <polyline fill="none" points="65,170 65,380" stroke="#ed0f1a"/>
+      <circ-anchor facing="east" height="6" width="6" x="97" y="587"/>
+    </appear>
+  </circuit>
+  <circuit name="d">
+    <a name="circuit" val="d"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+  </circuit>
+</project>

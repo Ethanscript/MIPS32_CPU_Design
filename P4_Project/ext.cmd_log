@@ -1,2 +1,0 @@
-vhdtdtfi -lib work C:/Users/Ethan/P4/ext.v -lang verilog -prj P4 -o ext.spl -module ext -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
-spl2sym -intstyle ise -family aspartan3 ext.spl C:/Users/Ethan/P4/ext.sym 

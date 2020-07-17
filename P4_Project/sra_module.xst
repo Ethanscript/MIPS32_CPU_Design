@@ -1,5 +1,0 @@
-set -tmpdir "C:/Users/Ethan/Desktop/test_code/P4/P4/xst/projnav.tmp"
-set -xsthdpdir "C:/Users/Ethan/Desktop/test_code/P4/P4/xst"
-elaborate
--ifn sra_module.prj
--ifmt mixed
