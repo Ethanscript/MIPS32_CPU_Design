@@ -1,0 +1,28 @@
+Command line:
+   bridge_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52497
+
+Fri Dec 20 00:58:20 2019
+
+
+ Elaboration Time: 0.25 sec
+
+ Current Memory Usage: 5836.46 Meg
+
+ Total Signals          : 27
+ Total Nets             : 249
+ Total Signal Drivers   : 11
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 12
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 329
+
+ Total Simulation Time: 0.265625 sec
+
+ Current Memory Usage: 5836.46 Meg
+
+Fri Dec 20 00:58:23 2019
+

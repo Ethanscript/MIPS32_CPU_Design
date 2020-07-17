@@ -1,0 +1,80 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/Ethan/Desktop/Zsk/test_mips_isim_beh.exe -prj C:/Users/Ethan/Desktop/Zsk/test_mips_beh.prj work.test_mips work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/xlu.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/W_controller.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/transform.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/stop.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/pipeline_register.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/pipeline_overflow.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/pipeline_ExcCode.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/pipeline_Dout.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/pipeline_BD.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/pc.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/npc.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/M_Exc.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/M_controller.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/mux_2.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/im.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/gpr.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/F_Exc.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/E_Exc.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/E_controller.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/ext.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/D_Exc.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/D_controller.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/dmext.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/dm.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/CP0.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/cmp.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/alu.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/timer.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/pathway.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/bridge.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/mips.v" into library work
+Analyzing Verilog file "C:/Users/Ethan/Desktop/Zsk/test_mips.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module pc
+Compiling module im
+Compiling module mux_2
+Compiling module F_Exc
+Compiling module pipeline_BD
+Compiling module pipeline_ExcCode
+Compiling module pipeline_register
+Compiling module D_Exc
+Compiling module D_controller
+Compiling module grf
+Compiling module cmp
+Compiling module npc
+Compiling module ext
+Compiling module E_Exc
+Compiling module E_controller
+Compiling module alu
+Compiling module xlu
+Compiling module pipeline_overflow
+Compiling module M_Exc
+Compiling module CP0
+Compiling module M_controller
+Compiling module dm
+Compiling module dmext
+Compiling module pipeline_Dout
+Compiling module W_controller
+Compiling module transform
+Compiling module stop
+Compiling module pathway
+Compiling module timer
+Compiling module bridge
+Compiling module mips
+Compiling module test_mips
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 8 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\test_mips_isim_beh.exe.sim\libPortability.dll".
+Compiled 33 Verilog Units
+Built simulation executable C:/Users/Ethan/Desktop/Zsk/test_mips_isim_beh.exe
+Fuse Memory Usage: 32752 KB
+Fuse CPU Usage: 953 ms

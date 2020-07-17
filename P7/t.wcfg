@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Ethan/Desktop/test_code/P7/p7/test_mips_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_mips" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/test_mips/addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mips/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mips/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mips/interrupt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">interrupt</obj_property>
+      <obj_property name="ObjectShortName">interrupt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mips/delay_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">delay_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">delay_count[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mips/interrupt_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">interrupt_counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">interrupt_counter[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mips/needInterrupt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">needInterrupt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">needInterrupt[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mips/delay_pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">delay_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">delay_pc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mips/uut/pathway/CP0/interrupt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">interrupt</obj_property>
+      <obj_property name="ObjectShortName">interrupt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mips/uut/pathway/CP0/sr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mips/uut/pathway/CP0/cause" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cause[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cause[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mips/uut/pathway/CP0/epc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">epc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">epc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_mips/uut/pathway/CP0/prid" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">prid[31:0]</obj_property>
+      <obj_property name="ObjectShortName">prid[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

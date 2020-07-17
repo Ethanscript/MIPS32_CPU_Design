@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Ethan/Desktop/test_code/P7/p7/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Ethan/Desktop/test_code/P7/p7/xst"
+elaborate
+-ifn pipeline_ExcCode.prj
+-ifmt mixed
